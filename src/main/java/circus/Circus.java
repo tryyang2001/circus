@@ -86,7 +86,8 @@ public class Circus {
         Parrot parrot = new Parrot("Patrol");
         Cage<Parrot> parrotCage = new Cage<>();
         parrotCage.lockUp(parrot);
-
+        Cage<Elephant> elpCage = new Cage<>();
+        elpCage.lockUp(strongOne);
         ArrayList<Cage> cages = new ArrayList<>();
         cages.add(duckCage);
         cages.add(parrotCage);
